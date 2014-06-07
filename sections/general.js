@@ -51,7 +51,6 @@ module.exports = function ( server ) {
         if ( err ) { throw err; }
 
         var toSend = { data:docs };
-        if ( isEmpty( warning ) ) { toSend.warnings = warning; }
 
         res.json( toSend );
       }
@@ -99,7 +98,6 @@ module.exports = function ( server ) {
         if ( err ) { throw err; }
 
         var toSend = { data:docs };
-        if ( isEmpty( warning ) ) { toSend.warnings = warning; }
 
         res.json( toSend );
       }

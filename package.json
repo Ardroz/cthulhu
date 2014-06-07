@@ -1,0 +1,28 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcrypt": "0.7.7",
+    "express": "3.4.6",
+    "connect-mongo": "0.3.x",
+    "mongoose": "3.6.20",
+    "underscore":       "1.6.0"
+  },
+  "devDependencies": {
+    "blanket":              "~1.1.6",
+    "chai":                 "= 1.1.0",
+    "expect.js":            "~0.2.0",
+    "grunt":                "~0.4.2",
+    "grunt-contrib-jshint": "0.7.2",
+    "grunt-nodemon":        "~0.1.2",
+    "grunt-exec":           "~0.4.2",
+    "grunt-mocha-test":     "~0.8.1",
+    "mocha":                "= 1.7.4",
+    "mocha-mongoose":       "x",
+    "request":              "~2.30.0"
+  }
+}
